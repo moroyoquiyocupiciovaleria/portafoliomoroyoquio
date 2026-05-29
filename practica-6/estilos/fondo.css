@@ -1,0 +1,59 @@
+body{
+	background: url("../img/corazon.png");
+	font-family: cursive;
+}
+
+
+header, main, footer{
+	background: white;
+	width: 70%;
+	margin: 10px auto;
+	padding: 15px;
+	border-radius: 20px;
+
+}
+
+/*Centrar texto en header 
+y footer*/
+
+header{text-align: center}
+footer{text-align: center}
+
+/*Texto de caja mail, justificado
+y con mayor interlineado*/
+
+main p{text-align: justify;
+line-height: 32px}
+
+main:hover{
+	background:#ffd6ff;
+	color: white;
+}
+
+header:hover{ ;
+	background:#cdb4db;
+color: white;
+}
+footer:hover{
+	background:#eae4e9;
+	color: white;
+}
+footer .boton{
+	text-align: center;
+}
+
+footer .boton a{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	background: #d9d9d9;
+	padding: 5px 15px;
+	border-radius: 5px;
+
+}
+footer .boton a:hover{
+	margin: auto px;
+	background: white;
+	transition: 0,5s;
+	color: black;
+}

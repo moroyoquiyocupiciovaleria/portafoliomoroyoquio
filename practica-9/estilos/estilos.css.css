@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #141414;
+    color: white;
+    font-family: arial;
+}
+
+/*AQUI HARE MAS TARDE EL HEADER*/
+
+header .logo img {
+    width: 10%;
+}
+
+main .contenedor {
+    width: 90%;
+    margin: 0 auto;
+    background: #141414;
+}
+
+main .perfil .foto {
+    width: 150px;
+    height: 150px;
+    background: darkred;
+    border: 5px solid #262525;
+}
+
+main .perfil .foto:hover {
+    border: 5px solid white;
+    transition: 0.5s;
+}
+
+main .perfiles {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main .perfiles .nombre {
+    margin: 15px 0;
+    text-align: center;
+}
+
+main .bienvenida {
+    text-align: center;
+    margin: 35px;
+    font-size: 30px;
+}
+
+.boton a {
+    color: #bcbcbc;
+    text-decoration: none;
+    border: 1px solid #bcbcbc;
+    padding: 10px 50px;
+    display: inline-block;
+    letter-spacing: 2px;
+}
+
+.boton a:hover {
+    color: white;
+    border: 1px solid white;
+    transition: 0.5s;
+}
+
+main .boton {
+    text-align: center;
+    margin: 50px 0;
+}
+
+footer {
+    text-align: center;
+    margin: 20px;
+}

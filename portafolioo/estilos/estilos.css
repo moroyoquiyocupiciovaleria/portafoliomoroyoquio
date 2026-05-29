@@ -1,0 +1,116 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: cursive;, Helvetica, sans-serif;
+}
+
+body{
+  background:#f4f4f4;
+  color:#3c096c;
+}
+
+/* HEADER */
+
+header{
+  background:url("../img/portada.JPG"),#1b4965;
+  padding:30px;
+  display:flex;
+  align-items:center;
+  gap:25px;
+  border-bottom:2px solid #ddd;
+}
+
+.foto-perfil{
+  width:120px;
+  height:120px;
+  border-radius:50%;
+  object-fit:cover;
+  border:4px solid #444;
+}
+
+.info h1{
+  font-size:32px;
+  margin-bottom:10px;
+}
+
+.info p{
+  max-width:500px;
+  line-height:1.5;
+}
+
+/* MAIN */
+
+main{
+  padding:40px;
+}
+
+.titulo{
+  margin-bottom:25px;
+  font-size:28px;
+}
+
+.galeria{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:20px;
+}
+
+.trabajo{
+  background:white;
+  border-radius:10px;
+  overflow:hidden;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+  transition:0.3s;
+}
+
+.trabajo:hover{
+  transform:scale(1.03);
+}
+
+.trabajo img{
+  width:100%;
+  height:180px;
+  object-fit:cover;
+}
+
+.trabajo h3{
+  padding:15px;
+  text-align:center;
+}
+
+/* FOOTER */
+
+footer{
+  background:#222;
+  color:white;
+  text-align:center;
+  padding:25px;
+  margin-top:40px;
+}
+footer .boton{
+  text-align: center;
+}
+
+footer .boton a{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background: #0095f5;
+  padding: 5px 15px;
+  border-radius: 5px;
+
+}
+footer .boton a:hover{
+  margin: auto px;
+  background: white;
+  transition: 0,5s;
+  color: black;
+}
+
+.redes a{
+  color:white;
+  text-decoration:none;
+  margin:0 10px;
+  font-size:20px;
+}

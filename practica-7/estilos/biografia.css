@@ -1,0 +1,79 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+
+
+
+body{
+	background: #edede9;
+	font-family: "Lora", serif;
+}
+header{
+	width: 100%;
+	background:url("../img/portada.jpeg"),#669bbc;
+	height:250px;
+}
+
+main{
+	background: white;
+	width:100%;
+	padding: 20px;
+}
+main .perfil{
+	background: gray;
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	margin-top: -100px;
+	border: 5px solid white;
+}
+main .perfil img{
+	width:100%;
+	border-radius: 100%;
+}
+main .texto h2{
+	margin: 15px 0;
+}
+footer{
+	background: #2d2a29;
+	font-size: 23px;
+	text-align: center;
+	padding: 25px;
+	color: #d8e2dc;
+}
+footer a{
+	color: #d8e2dc;
+	display: inline-block;
+	margin: 8px 12px;
+}
+footer a:hover{
+	color: white;
+
+}
+.contenedor{
+	width: 70%;
+	margin: 0 auto;
+}
+footer .boton{
+	text-align: center;
+}
+
+footer .boton a{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	background: #353535;
+	padding: 5px 15px;
+	border-radius: 5px;
+
+}
+footer .boton a:hover{
+	margin: auto px;
+	background: white;
+	transition: 0,5s;
+	color: black;
+}
